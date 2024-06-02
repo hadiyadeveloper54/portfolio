@@ -1,0 +1,152 @@
+body{
+    background: black;
+    height: 100%;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #e929a9;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.contant{
+    margin-left: 7%;
+    color: white;
+    display: flex;
+}
+span{
+    color: deeppink;
+}
+.h1{
+    display: flex;
+    margin-left: 7%;
+    font-size: 40px;
+    color: white;
+}
+.btn{
+    margin-left: 7%;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: deeppink;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover{
+    background: #fff;
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+image:hover .girl{
+    left: 55%;
+}
+.h11{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.img{
+    display: flex;
+    margin-left: 7;
+}
+.img img:hover{
+    transform: scale(1.04);
+}
+.testimonial-item {
+    margin-top: 70%;
+    min-height: 200px;
+    max-width: 300px;
+    background: black;
+    border: 3px solid rgba(238, 238, 238, 0.2);
+    border-radius: 2rem;
+    margin: 0 0.8rem;
+    padding: 30px 40px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+  }
+.testimonial-box img {
+    width: 15rem;
+    border-radius: 100%;
+}
+.testimonial-item:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+.testimonial-item h2 {
+    font-size: 2.8rem;
+ }
+  
+.testimonial-item p {
+    font-size: 1.3rem;
+}
+#star {
+    color: gold;
+    font-size: 2rem;
+  }
+  .footer{
+    background-color: grey;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 7%;
+  }
+.footer i{
+    margin-top: 100px;
+}
+  
